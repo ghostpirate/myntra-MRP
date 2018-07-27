@@ -1,0 +1,19 @@
+{
+    "name": "Myntra",
+    "description": "Show MRP of product in Myntra.com",
+    "manifest_version": 2,
+    "version": "1.0",
+    "icons": {
+        "16": "myntra.png",
+        "32": "myntra.png",
+        "48": "myntra.png",
+        "128": "myntra.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://www.myntra.com/*"],
+        "js": ["change.js"]
+    }],
+    "browser_action": {
+        "default_icon": "myntra.png"
+    }
+}
