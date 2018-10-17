@@ -12,4 +12,4 @@ Download or clone this repository. Goto 'Extensions' in Google Chrome under 'Mor
 
 ## Note
 
-The price shown can vary on a samll value.
+The price can vary on a samll value.
